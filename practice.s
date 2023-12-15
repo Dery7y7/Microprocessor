@@ -37,10 +37,10 @@ pracheck:
 	cpfseq	pracflag
 	goto	flagoff
 	goto	flagon
-flagon:
+flagoff:
 
 	return
-flagoff:
+flagon:
 
 	cpfseq	true
 	goto	false
