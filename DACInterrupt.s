@@ -148,10 +148,20 @@ DAC_Setup:
 	movlw	0
 	clrf	delaycount, A
 	return
-	
+
 delayset:
-	movlw	0x0A
-	movwf	delaycount
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+ 	nop
+  	return
+;delayset:
+	;movlw	0x0A
+	;movwf	delaycount
 delay:	
 	nop
 	nop
